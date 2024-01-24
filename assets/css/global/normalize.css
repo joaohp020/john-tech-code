@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  line-height: auto;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: inherit;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+section {
+  width: 100vw;
+}
