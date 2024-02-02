@@ -1,6 +1,6 @@
 # John Tech Code - Site Institucioanl
 
-Site com intuito de divulgar os serviços prestados pela equipe John Tech Code. Portfólio disponibilizando os projetos mais relevantes e opções para contato e orçamento aos usuários que navegarem pelo site.
+Site com intuito de divulgar os serviços prestados pela equipe John Tech Code. O objetivo principal é apresentar ao usuário os benefícios de contratar nossa equipe para tomar conta do desenvolvimento de toda uma presença impactante na Web, tendo em vista a liberdade que o desenvolvimento através do código puro nos dá.
 
 ## Stack
 
