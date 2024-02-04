@@ -2,7 +2,6 @@ nav {
     display: flex;
     width: 100vw;
     height: 4.5rem;
-    background: var(--cor-branco);
     align-items: center;
     justify-content: space-around;
     position: fixed;
@@ -27,7 +26,7 @@ nav img {
 
 .opcoes a {
     text-decoration: none;
-    color: var(--cor-azul);
+    color: var(--cor-branco);
     font-size: 0.7rem;
     margin: 0 5px;
     font-family: var(--julius);
