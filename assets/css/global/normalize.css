@@ -8,10 +8,18 @@
   box-sizing: border-box;
   font-weight: inherit;
 }
+
 body {
   width: 100vw;
   overflow-x: hidden;
 }
+
 section {
   width: 100vw;
+}
+
+span {
+  color: var(--cor-verde);
+  font-family: var(--montserrat);
+  font-weight: 700;
 }

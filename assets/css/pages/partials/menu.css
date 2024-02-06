@@ -37,6 +37,12 @@ nav img {
     margin: 0 0 0 28px;
     font-family: var(--lato);
     font-weight: 500 !important;
+    opacity: 0.6;
+}
+
+.opcoes a:hover {
+    opacity: 1;
+    transition: .20s;
 }
 
 .acoes-menu {
@@ -58,6 +64,8 @@ nav img {
     justify-content: center;
     border-radius: 25px;
     transition: .20s;
+    font-family: var(--lato);
+    font-size: 0.9rem;
 }
 
 .acoes-menu a.btnFaleConosco:hover {
@@ -75,8 +83,23 @@ nav img {
     justify-content: center;
     border-radius: 25px;
     transition: .20s;
+    font-family: var(--lato);
+    font-size: 0.9rem;
 }
 
 .acoes-menu a.btnContratar:hover {
     background-color: var(--cor-amarelo);
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0 2rem;
+    }
+    .content-logo .opcoes a {
+        display: none;
+    }
+    .acoes-menu {
+        display: none;
+    }
 }
