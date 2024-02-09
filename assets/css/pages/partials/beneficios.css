@@ -1,0 +1,77 @@
+.beneficios {
+    background-color: var(--cor-preto);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h2 {
+    color: var(--cor-branco);
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    max-width: 22rem;
+}
+
+.titulo h2 span {
+    color: var(--cor-verde);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.cards-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards-beneficios p {
+    color: var(--cor-branco);
+    font-size: 0.8rem;
+    font-family: var(--lato);
+    max-width: 33rem;
+    margin: 1rem 0 1.8rem 0;
+    line-height: 1.5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(33.3333% - 20px);
+    width: 100%;
+    max-width: 45rem;
+}
+
+.titulo-card {
+    display: flex;
+}
+
+.titulo-card img {
+    width: 100%;
+    max-width: 1.3rem;
+}
+
+.linha {
+    background-color: var(--cor-verde);
+    height: 1px;
+}
+
+.titulo-card h4 {
+    color: var(--cor-branco);
+    margin: 0 0 0 10px;
+    font-family: var(--montserrat);
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 0 1.5rem;
+        flex-direction: column;
+    }
+}
