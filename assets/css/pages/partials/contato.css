@@ -1,0 +1,84 @@
+.contato {
+    background-color: var(--cor-preto-s);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 0;
+    width: 100%;
+    gap: 3rem;
+}
+
+.content-contato img {
+    width: 100%;
+    max-width: 14rem;
+}
+
+.content-contato .titulo-contato {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.content-contato .titulo-contato h2 {
+    color: var(--cor-branco);
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    max-width: 22rem;
+}
+
+.titulo-contato h2 span {
+    color: var(--cor-verde);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.contato p {
+    color: var(--cor-branco);
+    /* font-size: 2rem; */
+    font-family: var(--lato);
+    max-width: 35rem;
+}
+
+.contato a {
+    text-decoration: none;
+    width: 100%;
+    max-width: 15rem;
+    height: 3rem;
+    color: var(--cor-branco);
+    background: linear-gradient(90deg, rgba(118, 167, 110, 1) 0%, rgba(147, 198, 138, 0.375875350140056) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: .20s;
+    font-family: var(--lato);
+    font-size: 0.9rem;
+    margin: 1.5rem 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+    .content-contato {
+        display: flex;
+        flex-direction: column;
+        padding: 7rem 0;
+        gap: 3rem;
+    }
+
+    .texto-contato {
+        padding: 0 1rem;
+    }
+
+    .contato img {
+        display: none;
+    }
+}
