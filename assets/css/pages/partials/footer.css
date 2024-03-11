@@ -1,7 +1,7 @@
 footer {
     width: 100vw;
     height: auto;
-    padding: 0 0 3rem 10rem;
+    padding: 0 0 3rem 0rem;
     background-color: var(--cor-preto-s);
     text-align: center;
     display: flex;
@@ -18,7 +18,7 @@ footer img {
 
 footer p {
     color: var(--cor-branco);
-    font-size: 1rem;
+    font-size: .8rem;
     font-family: var(--lato);
 }
 
