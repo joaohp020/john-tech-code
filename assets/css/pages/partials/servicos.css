@@ -1,4 +1,4 @@
-.beneficios {
+.servicos {
     background-color: var(--cor-preto-s);
     height: 100vh;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.content-beneficios {
+.content-servicos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
     padding: 0 10rem;
 }
 
-.content-beneficios .titulo {
+.content-servicos .titulo {
     display: flex;
     align-items: start;
     justify-content: start;
@@ -35,14 +35,14 @@
     -webkit-text-stroke-width: 1px;
 }
 
-.cards-beneficios {
+.cards-servicos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     gap: 10px;
 }
 
-.cards-beneficios p {
+.cards-servicos p {
     color: var(--cor-branco);
     font-size: 0.8rem;
     font-family: var(--lato);
@@ -83,7 +83,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .beneficios {
+    .servicos {
         height: auto;
     }
 
@@ -92,13 +92,13 @@
         flex-direction: column;
     }
 
-    .content-beneficios {
+    .content-servicos {
         flex-direction: column;
         justify-content: center;
         padding: 0 1rem;
     }
 
-    .content-beneficios .titulo {
+    .content-servicos .titulo {
         width: 90vw;
     }
 
@@ -107,8 +107,9 @@
         max-width: 80vw;
     }
 
-    .cards-beneficios {
+    .cards-servicos {
         gap: 15px;
+        flex-direction: column;
     }
 
     .card {
