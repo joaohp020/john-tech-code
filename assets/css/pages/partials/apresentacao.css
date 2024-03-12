@@ -59,6 +59,10 @@ span {
 
 
 @media screen and (max-width: 768px) {
+    .apresentacao {
+        height: 110vh;
+    }
+
     .content {
         padding: 0 1rem;
         flex-direction: column;

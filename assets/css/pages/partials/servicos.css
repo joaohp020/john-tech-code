@@ -115,7 +115,7 @@
     .card {
         flex-direction: column;
         flex: 0px !important;
-        max-width: 78vw !important;
+        max-width: 90vw !important;
         padding: 25px 20px;
     }
 }
